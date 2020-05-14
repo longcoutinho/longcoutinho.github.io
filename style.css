@@ -1,0 +1,317 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+#anything {
+  top: 130px;
+  position: relative;
+  height: 527px;
+  width: 100%;
+  overflow-y: scroll;
+}
+#menu {
+  height: 130px;
+  width: 100%;
+  position: fixed;
+  overflow-y: hidden;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+#header {
+  position: absolute;
+  height: 660px;
+  top: 0px;
+  width: 100%;
+  background-color: rgb(0, 205, 207);
+}
+#center {
+  position: absolute;
+  height: 817px;
+  top: 660px;
+  width: 100%;
+}
+#ptitle {
+  font-family: Arial;
+  font-size: 15px;
+  color:#666666;
+  line-height: 22px;
+}
+#likebutton {
+  display: inline-block;
+  background-color: rgb(24, 119, 242);
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#title {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  padding-left: 20px;
+}
+#twitterbutton {
+  display: inline-block;
+  background-color: rgb(27, 149, 224);
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#twitterbutton:hover {
+  background-color: rgb(24, 119, 242);
+}
+#menubutton {
+  height: 100%;
+  width: 19%;
+  display: flex;
+  flex-direction: column;
+}
+#downloadbutton {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(95, 206, 192);
+  padding: 15px 45px;
+  font-family: Arial , sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border-radius: 5px;
+}
+#downloadbutton:hover {
+  background-color: rgb(59,191,175);
+}
+#download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+}
+#threebuttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#homebutton , #leftbutton, #rightbutton {
+  color:black;
+  font-size: 12px;
+  padding: 10px 30px;
+  border: 2px solid rgb(223, 223, 223);
+  border-radius: 5px;
+}
+#homebutton:hover , #leftbutton:hover, #rightbutton:hover {
+  border: 2px solid rgb(95, 206, 192);
+  color: rgb(95, 206, 192);
+}
+#ptypify {
+  color:white;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+#typify {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 4px double white;
+  border-bottom: 4px double white;
+  width: 540px;
+  height: 240px;
+  display: flex;
+}
+#headercontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#pbrought {
+  color: white;
+  font-size: 25px;
+}
+#getstartedbutton {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(0, 154, 156);
+  font-size: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: 170px;
+  text-align: center;
+}
+#getstartedbutton:hover {
+  background-color: rgb(0, 180, 181);
+}
+#getstartedbutton:active {
+  background-color: rgb(0, 129, 131);
+}
+#center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#plorem,#pgetintouch {
+  font-size: 30px;
+  color: rgb(85, 85, 85);
+}
+#lorem,#getintouch {
+  border-bottom: 4px double rgb(227, 227, 227);
+  display: inline-block;
+  height: 80px;
+}
+#fiveimages {
+  height: 485px;
+  width: 1038px;
+  display: grid;
+  grid-template-columns: 173px 173px 173px 173px 173px 173px;
+  grid-template-rows: 242px 242px;
+}
+#etiam,#sed,#feugiat,#amet,#tempus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgb(227, 227, 227);
+}
+#etiam {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  border-right: none;
+  
+}
+#sed {
+  grid-column: 3/5;
+  grid-row: 1/2;
+  border-right: none;
+}
+#feugiat {
+  grid-column: 5/7;
+  grid-row: 1/2;
+}
+#amet {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  border-top: none;
+  border-right: none;
+}
+#tempus {
+  grid-column: 4/6;
+  grid-row: 2/3;
+  border-top: none;
+}
+
+.petiam,.psed,.pfeugiat,.pamet,.ptempus {
+  font-size: 20px;
+  color: rgb(85, 85, 85);
+  margin: 0;
+}
+#icongem,#iconcopy,#iconpaperplane,#iconsave,#iconenvelope {
+  color: rgb(0, 205, 207);
+  font-size: 40px;
+}
+#footer {
+  width: 100%;
+  height: 825px;
+  background-color: rgb(247, 247, 247);
+  top: 1477px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#nameemail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 560px;
+  height: 70px;
+}
+#name,#email {
+  width: 263px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#fname,#femail {
+  width: 241px;
+  height: 40px;
+  padding: 0px 10px;
+  display: inline-block;
+  font-size: 15px;
+  border: none;
+  border: 1px solid rgb(221, 221, 221);
+}
+#contact {
+  height: 350px;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#mess {
+  width: 100%;
+  height: 155px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#fmess {
+  width: 538px;
+  height: 90px;
+  font-size: 20px;
+  padding: 20px 10px; 
+  overflow-y: auto;
+  border-color: rgb(221, 221, 221);
+}
+#sendmess {
+  background-color: rgb(85, 85, 85);
+  color: white;
+  padding: 0px;
+  font-size: 15px;
+  width: 187px;
+  height: 46px;
+  border: none;
+  cursor: pointer;
+}
+#signature {
+  width: 560px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgb(221, 221, 221);
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#ptemplated {
+  color:rgb(0, 205, 207);
+  margin: 0;
+  margin-right: 140px;
+}
+#punti {
+  color:rgb(221, 221, 221);
+  margin: 0;
+}
+#iconcopyright {
+  margin-left: 140px;
+  font-size: 12px;
+  margin-bottom: 3px;
+  color:rgb(221, 221, 221);
+}
